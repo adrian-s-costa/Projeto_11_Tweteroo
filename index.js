@@ -24,8 +24,6 @@ app.post("/tweets", (req, res)=>{
         avatar: userWPic.avatar,
         tweet: req.body.tweet
     })
-    
-    console.log(tweets)
     res.send("OK");
 })
 
